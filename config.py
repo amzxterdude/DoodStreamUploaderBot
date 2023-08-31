@@ -12,7 +12,7 @@ class Config(object):
     
     API_HASH = environ.get("25fc53e982e5a16dcaa5b8e4d232c97f", "") # Get this value from https://my.telegram.org/apps
     
-    OWNER_ID = int(environ.get("1158786002", None)) # Your(owner's) telegram id
+    OWNER_ID = int(environ.get("1158786002", Nonetype)) # Your(owner's) telegram id
     
     MONGO_STR = environ.get("mongodb+srv://amalkochuparambilp:amalkochuparambilp@cluster0.m96k6qd.mongodb.net/?retryWrites=true&w=majority", "") # Get from MongoDB Atlas
 
